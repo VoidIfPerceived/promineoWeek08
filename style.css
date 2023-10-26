@@ -1,0 +1,73 @@
+h1 {
+    font-family:cursive;
+    color:rgb(0, 0, 0);
+    font-size: x-large;
+    outline: 20px;
+    word-spacing: .5;
+    text-align: center;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.sublist {
+    color: rgb(221, 194, 125);
+}
+.navigation {
+    text-align: center;
+}
+
+.navigation a {
+    background-color: black;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    display: inline-flex;
+    color: darkgray;
+}
+.navigation a:hover {
+    background-color: black;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: blue;
+    
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
+.gold {
+    color: gold;
+}
+
+.twentP {
+    font-size: 20px;
+}
+
+.questions li {
+    text-indent: 1;
+    color: grey;
+    border: 1px groove grey;
+    font-size: 30px;
+}
+
+.answers {
+    text-align: center;
+    font-size: large;
+}
+
+#todo {
+    background-image: url(./CoolDarkGradient.jpg);
+}
+
+h1, #todo {
+    color: goldenrod;
+}
+
+p {
+    font-size: medium;
+    font-weight: bold;
+}
